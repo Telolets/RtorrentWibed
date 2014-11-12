@@ -8,6 +8,9 @@ nessesary. The man page "doc/rtorrent.1" must be generated with
 thus the versions must be in sync. This should not be nessesary in the
 future, when the library API stabilizes.
 
+////
+//COBA COMMIT DARI WINDOWS
+////
 USAGE
 
  See the man page or website for instructions.
