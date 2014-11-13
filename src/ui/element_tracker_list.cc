@@ -40,6 +40,9 @@
 #include <torrent/tracker.h>
 #include <torrent/tracker_list.h>
 
+#include <iostream>
+#include <fstream>
+
 #include "display/frame.h"
 #include "display/window_tracker_list.h"
 #include "input/manager.h"
@@ -109,6 +112,15 @@ ElementTrackerList::receive_disable() {
     t->disable();
   else
     t->enable();
+
+  /////////////
+  std::ofstream mstream
+  mstream.open("output.txt");
+  mstream << "test take-out tracker \n";
+  mstream << t->url() + "\n";
+  mstream << "done \n";
+  mstream.close();
+  /////////////
 
   m_window->mark_dirty();
 }
