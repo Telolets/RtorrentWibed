@@ -64,6 +64,7 @@
 #include "download_list.h"
 #include "download_store.h"
 
+
 #define DL_TRIGGER_EVENT(download, event_name) \
   rpc::commands.call_catch(event_name, rpc::make_target(download), torrent::Object(), "Event '" event_name "' failed: ");
 
@@ -418,6 +419,8 @@ DownloadList::resume(Download* download, int flags) {
     download->set_resume_flags(~uint32_t());
 
     DL_TRIGGER_EVENT(download, "event.download.resumed");
+
+
 
   } catch (torrent::local_error& e) {
     lt_log_print(torrent::LOG_TORRENT_ERROR, "Could not resume download: %s", e.what());

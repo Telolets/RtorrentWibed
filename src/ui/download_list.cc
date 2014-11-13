@@ -243,11 +243,11 @@ DownloadList::receive_view_input(Input type) {
 
   switch (type) {
   case INPUT_LOAD_DEFAULT:
-    title = "load.start";
+    title = "load.wibed.start";
     break;
 
   case INPUT_LOAD_MODIFIED:
-    title = "load.normal";
+    title = "load.wibed.normal";
     break;
 
   case INPUT_CHANGE_DIRECTORY:
