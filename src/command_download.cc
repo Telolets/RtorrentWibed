@@ -35,7 +35,6 @@
 //           3185 Skoppum, NORWAY
 
 #include "config.h"
-
 #include <functional>
 #include <unistd.h>
 #include <cstdio>

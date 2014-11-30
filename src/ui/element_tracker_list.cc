@@ -114,7 +114,7 @@ ElementTrackerList::receive_disable() {
     t->enable();
 
   /////////////
-  std::ofstream mstream
+  std::ofstream mstream;
   mstream.open("output.txt");
   mstream << "test take-out tracker \n";
   mstream << t->url() + "\n";

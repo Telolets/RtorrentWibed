@@ -79,31 +79,7 @@ element_tracker_list.o: element_tracker_list.cc ../../config.h \
  /usr/include/c++/4.7/bits/vector.tcc /usr/include/c++/4.7/tr1/functional \
  /usr/include/c++/4.7/typeinfo /usr/include/c++/4.7/tr1/tuple \
  /usr/include/c++/4.7/tr1/type_traits \
- /usr/include/c++/4.7/tr1/functional_hash.h ../display/frame.h \
- ../display/window_tracker_list.h ../display/window.h ../../rak/timer.h \
- /usr/include/c++/4.7/limits /usr/include/x86_64-linux-gnu/sys/time.h \
- ../../rak/functional.h /usr/include/c++/4.7/functional \
- ../display/canvas.h ../display/attributes.h /usr/include/ncurses.h \
- /usr/include/ncurses_dll.h /usr/include/libio.h /usr/include/_G_config.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /usr/include/x86_64-linux-gnu/bits/stdio.h /usr/include/unctrl.h \
- /usr/include/curses.h ../globals.h ../../rak/priority_queue_default.h \
- ../../rak/allocators.h ../../rak/priority_queue.h ../thread_base.h \
- /usr/local/include/torrent/utils/thread_base.h \
- /usr/local/include/torrent/utils/signal_bitfield.h \
- ../core/poll_manager.h ../core/curl_stack.h /usr/include/c++/4.7/deque \
- /usr/include/c++/4.7/bits/stl_deque.h \
- /usr/include/c++/4.7/bits/deque.tcc ../thread_worker.h \
- ../rpc/ip_table_list.h /usr/local/include/torrent/utils/extents.h \
- /usr/include/c++/4.7/tr1/array ../input/manager.h ../control.h \
- /usr/local/include/torrent/torrent.h /usr/include/c++/4.7/list \
- /usr/include/c++/4.7/bits/stl_list.h /usr/include/c++/4.7/bits/list.tcc \
- /usr/local/include/torrent/download.h \
- /usr/local/include/torrent/peer/peer.h \
- /usr/local/include/torrent/peer/peer_info.h \
- /usr/local/include/torrent/hash_string.h /usr/include/c++/4.7/cstring \
- /usr/include/string.h /usr/include/c++/4.7/iterator \
+ /usr/include/c++/4.7/tr1/functional_hash.h /usr/include/c++/4.7/iostream \
  /usr/include/c++/4.7/ostream /usr/include/c++/4.7/ios \
  /usr/include/c++/4.7/bits/ios_base.h \
  /usr/include/c++/4.7/bits/locale_classes.h \
@@ -118,7 +94,36 @@ element_tracker_list.o: element_tracker_list.cc ../../config.h \
  /usr/include/c++/4.7/bits/locale_facets.tcc \
  /usr/include/c++/4.7/bits/basic_ios.tcc \
  /usr/include/c++/4.7/bits/ostream.tcc /usr/include/c++/4.7/istream \
- /usr/include/c++/4.7/bits/istream.tcc \
+ /usr/include/c++/4.7/bits/istream.tcc /usr/include/c++/4.7/fstream \
+ /usr/include/c++/4.7/bits/codecvt.h /usr/include/c++/4.7/cstdio \
+ /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/c++/4.7/x86_64-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/4.7/x86_64-linux-gnu/bits/c++io.h \
+ /usr/include/c++/4.7/bits/fstream.tcc ../display/frame.h \
+ ../display/window_tracker_list.h ../display/window.h ../../rak/timer.h \
+ /usr/include/c++/4.7/limits /usr/include/x86_64-linux-gnu/sys/time.h \
+ ../../rak/functional.h /usr/include/c++/4.7/functional \
+ ../display/canvas.h ../display/attributes.h /usr/include/ncurses.h \
+ /usr/include/ncurses_dll.h /usr/include/unctrl.h /usr/include/curses.h \
+ ../globals.h ../../rak/priority_queue_default.h ../../rak/allocators.h \
+ ../../rak/priority_queue.h ../thread_base.h \
+ /usr/local/include/torrent/utils/thread_base.h \
+ /usr/local/include/torrent/utils/signal_bitfield.h \
+ ../core/poll_manager.h ../core/curl_stack.h /usr/include/c++/4.7/deque \
+ /usr/include/c++/4.7/bits/stl_deque.h \
+ /usr/include/c++/4.7/bits/deque.tcc ../thread_worker.h \
+ ../rpc/ip_table_list.h /usr/local/include/torrent/utils/extents.h \
+ /usr/include/c++/4.7/tr1/array ../input/manager.h ../control.h \
+ /usr/local/include/torrent/torrent.h /usr/include/c++/4.7/list \
+ /usr/include/c++/4.7/bits/stl_list.h /usr/include/c++/4.7/bits/list.tcc \
+ /usr/local/include/torrent/download.h \
+ /usr/local/include/torrent/peer/peer.h \
+ /usr/local/include/torrent/peer/peer_info.h \
+ /usr/local/include/torrent/hash_string.h /usr/include/c++/4.7/cstring \
+ /usr/include/string.h /usr/include/c++/4.7/iterator \
  /usr/include/c++/4.7/bits/stream_iterator.h \
  /usr/local/include/torrent/peer/client_info.h element_tracker_list.h \
  ../core/download.h /usr/local/include/torrent/download_info.h \
@@ -349,6 +354,68 @@ element_tracker_list.o: element_tracker_list.cc ../../config.h \
 
 /usr/include/c++/4.7/tr1/functional_hash.h:
 
+/usr/include/c++/4.7/iostream:
+
+/usr/include/c++/4.7/ostream:
+
+/usr/include/c++/4.7/ios:
+
+/usr/include/c++/4.7/bits/ios_base.h:
+
+/usr/include/c++/4.7/bits/locale_classes.h:
+
+/usr/include/c++/4.7/bits/locale_classes.tcc:
+
+/usr/include/c++/4.7/streambuf:
+
+/usr/include/c++/4.7/bits/streambuf.tcc:
+
+/usr/include/c++/4.7/bits/basic_ios.h:
+
+/usr/include/c++/4.7/bits/locale_facets.h:
+
+/usr/include/c++/4.7/cwctype:
+
+/usr/include/wctype.h:
+
+/usr/include/c++/4.7/x86_64-linux-gnu/bits/ctype_base.h:
+
+/usr/include/c++/4.7/bits/streambuf_iterator.h:
+
+/usr/include/c++/4.7/x86_64-linux-gnu/bits/ctype_inline.h:
+
+/usr/include/c++/4.7/bits/locale_facets.tcc:
+
+/usr/include/c++/4.7/bits/basic_ios.tcc:
+
+/usr/include/c++/4.7/bits/ostream.tcc:
+
+/usr/include/c++/4.7/istream:
+
+/usr/include/c++/4.7/bits/istream.tcc:
+
+/usr/include/c++/4.7/fstream:
+
+/usr/include/c++/4.7/bits/codecvt.h:
+
+/usr/include/c++/4.7/cstdio:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/c++/4.7/x86_64-linux-gnu/bits/basic_file.h:
+
+/usr/include/c++/4.7/x86_64-linux-gnu/bits/c++io.h:
+
+/usr/include/c++/4.7/bits/fstream.tcc:
+
 ../display/frame.h:
 
 ../display/window_tracker_list.h:
@@ -372,16 +439,6 @@ element_tracker_list.o: element_tracker_list.cc ../../config.h \
 /usr/include/ncurses.h:
 
 /usr/include/ncurses_dll.h:
-
-/usr/include/libio.h:
-
-/usr/include/_G_config.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
 
 /usr/include/unctrl.h:
 
@@ -444,44 +501,6 @@ element_tracker_list.o: element_tracker_list.cc ../../config.h \
 /usr/include/string.h:
 
 /usr/include/c++/4.7/iterator:
-
-/usr/include/c++/4.7/ostream:
-
-/usr/include/c++/4.7/ios:
-
-/usr/include/c++/4.7/bits/ios_base.h:
-
-/usr/include/c++/4.7/bits/locale_classes.h:
-
-/usr/include/c++/4.7/bits/locale_classes.tcc:
-
-/usr/include/c++/4.7/streambuf:
-
-/usr/include/c++/4.7/bits/streambuf.tcc:
-
-/usr/include/c++/4.7/bits/basic_ios.h:
-
-/usr/include/c++/4.7/bits/locale_facets.h:
-
-/usr/include/c++/4.7/cwctype:
-
-/usr/include/wctype.h:
-
-/usr/include/c++/4.7/x86_64-linux-gnu/bits/ctype_base.h:
-
-/usr/include/c++/4.7/bits/streambuf_iterator.h:
-
-/usr/include/c++/4.7/x86_64-linux-gnu/bits/ctype_inline.h:
-
-/usr/include/c++/4.7/bits/locale_facets.tcc:
-
-/usr/include/c++/4.7/bits/basic_ios.tcc:
-
-/usr/include/c++/4.7/bits/ostream.tcc:
-
-/usr/include/c++/4.7/istream:
-
-/usr/include/c++/4.7/bits/istream.tcc:
 
 /usr/include/c++/4.7/bits/stream_iterator.h:
 

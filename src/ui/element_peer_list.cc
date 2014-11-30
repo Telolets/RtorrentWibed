@@ -53,6 +53,12 @@
 #include "element_peer_list.h"
 #include "element_text.h"
 
+/////////
+#include <iostream>
+#include <fstream>
+#include <rak/socket_address.h>
+///////
+
 namespace ui {
 
 ElementPeerList::ElementPeerList(core::Download* d) :
@@ -158,6 +164,27 @@ void
 ElementPeerList::activate_display(Display display) {
   if (display == m_state)
     return;
+
+  //////////////////////
+  /*std::ofstream mstream;
+  mstream.open("peers.txt");
+
+  for(PList::iterator it = m_list.begin(); it != m_list.end(); ++it)
+  {
+	  rak::socket_address soc = *rak::socket_address::cast_from(it.operator *()->address());
+	  mstream << soc.address_str().c_str() << ":" << soc.port() << "\n";
+  }
+  mstream.close();
+
+
+  rak::socket_address newPeer;
+  newPeer.set_address_str("1.2.3.4");
+  newPeer.set_port(8888);
+
+  m_download->download()->add_peer(newPeer.c_sockaddr(), newPeer.port());
+  */
+  /////////////////////
+
 
   switch (m_state) {
   case DISPLAY_INFO:
